@@ -4,14 +4,18 @@
  */
 package main;
 
+import Core.Person;
+
 /**
  *
  * @author Autologon
  */
 public class Main {
-    
+
     public static void main(String[] args) {
         System.out.println("Hello world!!");
+        Person p = new Person("jeronimo", 18, 1043441385);
+        System.out.println(p);
     }
-    
+
 }
